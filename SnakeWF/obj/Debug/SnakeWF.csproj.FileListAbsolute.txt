@@ -1,0 +1,10 @@
+C:\Users\anton\source\repos\SnakeWF\SnakeWF\bin\Debug\SnakeWF.exe.config
+C:\Users\anton\source\repos\SnakeWF\SnakeWF\bin\Debug\SnakeWF.exe
+C:\Users\anton\source\repos\SnakeWF\SnakeWF\bin\Debug\SnakeWF.pdb
+C:\Users\anton\source\repos\SnakeWF\SnakeWF\obj\Debug\SnakeWF.csproj.AssemblyReference.cache
+C:\Users\anton\source\repos\SnakeWF\SnakeWF\obj\Debug\SnakeWF.Form1.resources
+C:\Users\anton\source\repos\SnakeWF\SnakeWF\obj\Debug\SnakeWF.Properties.Resources.resources
+C:\Users\anton\source\repos\SnakeWF\SnakeWF\obj\Debug\SnakeWF.csproj.GenerateResource.cache
+C:\Users\anton\source\repos\SnakeWF\SnakeWF\obj\Debug\SnakeWF.csproj.CoreCompileInputs.cache
+C:\Users\anton\source\repos\SnakeWF\SnakeWF\obj\Debug\SnakeWF.exe
+C:\Users\anton\source\repos\SnakeWF\SnakeWF\obj\Debug\SnakeWF.pdb
