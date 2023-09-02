@@ -34,6 +34,9 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.labelPuntos = new System.Windows.Forms.Label();
             this.labelPuntuacionNum = new System.Windows.Forms.Label();
+            this.labelVidas = new System.Windows.Forms.Label();
+            this.labelNumVidas = new System.Windows.Forms.Label();
+            this.buttonVerRecords = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,13 +51,14 @@
             // buttonStart
             // 
             this.buttonStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonStart.Location = new System.Drawing.Point(12, 311);
+            this.buttonStart.Location = new System.Drawing.Point(12, 322);
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.Size = new System.Drawing.Size(116, 38);
             this.buttonStart.TabIndex = 1;
             this.buttonStart.Text = "START";
             this.buttonStart.UseVisualStyleBackColor = true;
             this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
+            this.buttonStart.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonStart_KeyUp);
             // 
             // timer1
             // 
@@ -64,7 +68,7 @@
             // labelPuntos
             // 
             this.labelPuntos.AutoSize = true;
-            this.labelPuntos.Location = new System.Drawing.Point(157, 325);
+            this.labelPuntos.Location = new System.Drawing.Point(241, 325);
             this.labelPuntos.Name = "labelPuntos";
             this.labelPuntos.Size = new System.Drawing.Size(52, 13);
             this.labelPuntos.TabIndex = 2;
@@ -73,17 +77,48 @@
             // labelPuntuacionNum
             // 
             this.labelPuntuacionNum.AutoSize = true;
-            this.labelPuntuacionNum.Location = new System.Drawing.Point(216, 325);
+            this.labelPuntuacionNum.Location = new System.Drawing.Point(299, 325);
             this.labelPuntuacionNum.Name = "labelPuntuacionNum";
             this.labelPuntuacionNum.Size = new System.Drawing.Size(13, 13);
             this.labelPuntuacionNum.TabIndex = 3;
             this.labelPuntuacionNum.Text = "0";
             // 
+            // labelVidas
+            // 
+            this.labelVidas.AutoSize = true;
+            this.labelVidas.Location = new System.Drawing.Point(241, 347);
+            this.labelVidas.Name = "labelVidas";
+            this.labelVidas.Size = new System.Drawing.Size(39, 13);
+            this.labelVidas.TabIndex = 4;
+            this.labelVidas.Text = "VIDAS";
+            // 
+            // labelNumVidas
+            // 
+            this.labelNumVidas.AutoSize = true;
+            this.labelNumVidas.Location = new System.Drawing.Point(299, 347);
+            this.labelNumVidas.Name = "labelNumVidas";
+            this.labelNumVidas.Size = new System.Drawing.Size(13, 13);
+            this.labelNumVidas.TabIndex = 5;
+            this.labelNumVidas.Text = "3";
+            // 
+            // buttonVerRecords
+            // 
+            this.buttonVerRecords.Location = new System.Drawing.Point(13, 373);
+            this.buttonVerRecords.Name = "buttonVerRecords";
+            this.buttonVerRecords.Size = new System.Drawing.Size(102, 23);
+            this.buttonVerRecords.TabIndex = 6;
+            this.buttonVerRecords.Text = "VER RECORDS";
+            this.buttonVerRecords.UseVisualStyleBackColor = true;
+            this.buttonVerRecords.Click += new System.EventHandler(this.buttonVerRecords_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(324, 361);
+            this.ClientSize = new System.Drawing.Size(324, 411);
+            this.Controls.Add(this.buttonVerRecords);
+            this.Controls.Add(this.labelNumVidas);
+            this.Controls.Add(this.labelVidas);
             this.Controls.Add(this.labelPuntuacionNum);
             this.Controls.Add(this.labelPuntos);
             this.Controls.Add(this.buttonStart);
@@ -107,6 +142,9 @@
         private System.Windows.Forms.Label labelPuntos;
         private System.Windows.Forms.Label labelPuntuacionNum;
         public System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label labelVidas;
+        private System.Windows.Forms.Label labelNumVidas;
+        private System.Windows.Forms.Button buttonVerRecords;
     }
 }
 

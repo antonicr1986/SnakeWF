@@ -21,7 +21,6 @@ namespace SnakeWF
         public Direction ActualDirection = Direction.Right;
         private Square Food = null;
         private Random oRandom = new Random();
-        public int Points = 0;
 
         PictureBox oPictureBox;
         Label labelPuntuacionNum;
@@ -41,17 +40,28 @@ namespace SnakeWF
             }
         }
 
-        public bool GameOver
+        public bool Muerto
         {
             get 
             {
                 foreach (var Square in Snake)
                 {
-                    if (Snake.Where(d => d.Y== Square.Y  &&  d.X==Square.X  &&  Square != d ).Count()>0)
+                    if (Snake.Where(d => d.Y== Square.Y  &&  d.X==Square.X  &&  Square != d).Count() > 0)
+                    {
                         return true;
+                    }                   
                 }
                 return false;
             }
+        }
+
+        public bool GameOver()
+        {
+            if (Form1.Vidas == 0 )
+            return true;
+
+            else
+            return false;
         }
 
         public Game(PictureBox oPictureBox, Label labelPuntuacionNum)
@@ -76,7 +86,11 @@ namespace SnakeWF
                 }
             }
 
-            Points = 0;
+            if (Form1.Vidas <=0) 
+            {
+               Form1. Puntuacion = 0;
+            }
+            
         }
 
         public void Show()
@@ -99,11 +113,15 @@ namespace SnakeWF
 
             oPictureBox.Image = bmp;
 
-            labelPuntuacionNum.Text = Points.ToString();
+            labelPuntuacionNum.Text = Form1.Puntuacion.ToString();
         }
 
         public void Next()
         {
+            if (Form1.Vidas == 0)
+            {
+                Reset();
+            }
             if (Food == null) 
                 GetFood();
 
@@ -173,7 +191,7 @@ namespace SnakeWF
             if (Snake[0].X==Food.X && Snake[0].Y == Food.Y)
             {
                 Food = null;
-                Points++;
+                Form1.Puntuacion++;
                 //alargamos el snake
                 Square LastSquare = Snake[Snake.Count - 1];
                 Square oSquare = new Square(LastSquare.XOld, LastSquare.YOld);
@@ -198,8 +216,7 @@ namespace SnakeWF
                     bmp.SetPixel(i + (x * scale),j + (y * scale), color);
                 }
             }
-        }
-        
+        }     
     }
 
     public class Square
