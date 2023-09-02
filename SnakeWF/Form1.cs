@@ -14,6 +14,8 @@ namespace SnakeWF
     public partial class Form1 : Form
     {
         Game oGame;
+        List<Puntuacion> records = new List<Puntuacion>();
+
         public  static int Vidas = 3;
         public static int Puntuacion = 0;
         public static int ultimaVelocidad = 1;
@@ -125,29 +127,29 @@ namespace SnakeWF
                 if (e.KeyCode == Keys.NumPad8)
                 {
                     oGame.ActualDirection = Game.Direction.Up;
-                    if (timer1.Interval >= 4)
-                        timer1.Interval = timer1.Interval / 2;
+                    /*if (timer1.Interval >= 4)
+                        timer1.Interval = timer1.Interval / 2;*/
                 }
 
                 if (e.KeyCode == Keys.NumPad6)
                 {
                     oGame.ActualDirection = Game.Direction.Right;
-                    if (timer1.Interval >= 4)
-                        timer1.Interval = timer1.Interval / 2;
+                    /*if (timer1.Interval >= 4)
+                        timer1.Interval = timer1.Interval / 2;*/
                 }
 
                 if (e.KeyCode == Keys.NumPad2)
                 {
                     oGame.ActualDirection = Game.Direction.Down;
-                    if (timer1.Interval >= 4)
-                        timer1.Interval = timer1.Interval / 2;
+                    /*if (timer1.Interval >= 4)
+                        timer1.Interval = timer1.Interval / 2;*/
                 }
 
                 if (e.KeyCode == Keys.NumPad4)
                 {
                     oGame.ActualDirection = Game.Direction.Left;
-                    if (timer1.Interval >= 4)
-                        timer1.Interval = timer1.Interval / 2;
+                    /*if (timer1.Interval >= 4)
+                        timer1.Interval = timer1.Interval / 2;*/
                 }
             }
         }
