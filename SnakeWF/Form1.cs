@@ -168,11 +168,18 @@ namespace SnakeWF
         private void buttonVerRecords_Click(object sender, EventArgs e)
         {
             string message = "";
-            for (int i = 0; i < records.Count; i++)
+
+            using (WF_SnakeEntities contexto = new WF_SnakeEntities())
             {
-                message += $"Nombre:  {records[i].Nombre} Puntuacion: {records[i].Puntos}\n";
+                var records = contexto.Records.ToList();
+
+                foreach (var record in records)
+                {
+                    message += $"Nombre: {record.Nombre}\t\tPuntuación: {record.Puntuacion}\n";
+                }
+                MessageBox.Show(message, "PUNTUACION GENERAL");
             }
-            MessageBox.Show(message);
+
         }
     }
 }
