@@ -149,7 +149,7 @@ namespace SnakeWF
 
             //mostrar comestibles
             if (Food!=null)
-                PaintPixel(bmp,Food.X,Food.Y, Color.Red);
+                PaintPixel(bmpWithBorder,Food.X,Food.Y, Color.Red);
 
 
             oPictureBox.Image = bmpWithBorder;
