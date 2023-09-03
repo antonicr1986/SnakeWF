@@ -53,13 +53,13 @@ namespace SnakeWF
                     switch (Puntuacion)
                     {
                         case 0:
-                            timer1.Interval = 400;
-                            break;
-                        case 2:
                             timer1.Interval = 300;
                             break;
-                        case 4:
+                        case 2:
                             timer1.Interval = 220;
+                            break;
+                        case 4:
+                            timer1.Interval = 180;
                             break;
                         case 6:
                             timer1.Interval = 150;
@@ -109,6 +109,8 @@ namespace SnakeWF
                     if (Vidas <= 0)
                     {
                         MessageBox.Show("GAME OVER TE HAS QUEDADO SIN VIDAS!!!!\n\n\tPUNTUACION FINAL: "+Puntuacion);
+                        FormPuntuacionAGuardar formPuntuacionAGuardar = new FormPuntuacionAGuardar(Puntuacion);
+                        formPuntuacionAGuardar.ShowDialog();
                     }
                     else
                     {
@@ -161,7 +163,7 @@ namespace SnakeWF
 
         private void buttonVerRecords_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("RECORDS: " + records.ToString());
         }
     }
 }

@@ -12,9 +12,18 @@ namespace SnakeWF
 {
     public partial class FormPuntuacionAGuardar : Form
     {
-        public FormPuntuacionAGuardar()
+        public FormPuntuacionAGuardar(int Puntuacion)
         {
             InitializeComponent();
+            labelPuntuacionPartida.Text = Puntuacion.ToString();
+        }
+
+        private void buttonGuardar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Puntuacion puntuacion = new Puntuacion();
+            puntuacion.Nombre = textBoxNombre.Text;
+            puntuacion.Puntos = Convert.ToInt32(labelPuntuacionPartida.Text);
         }
     }
 }

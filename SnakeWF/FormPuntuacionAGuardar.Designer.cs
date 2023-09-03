@@ -85,6 +85,7 @@
             this.buttonGuardar.TabIndex = 4;
             this.buttonGuardar.Text = "GUARDAR";
             this.buttonGuardar.UseVisualStyleBackColor = false;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click);
             // 
             // FormPuntuacionAGuardar
             // 
