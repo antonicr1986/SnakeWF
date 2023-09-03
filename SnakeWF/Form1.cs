@@ -13,10 +13,13 @@ namespace SnakeWF
 {
     public partial class Form1 : Form
     {
-        Game oGame;
-        List<Puntuacion> records = new List<Puntuacion>();
+        public static readonly int numVidas = 1;
 
-        public  static int Vidas = 3;
+        Game oGame;
+        public static List<Puntuacion> records = new List<Puntuacion>();
+
+
+        public  static int Vidas = numVidas;
         public static int Puntuacion = 0;
         public static int ultimaVelocidad = 1;
         private bool keyIsPressed = false;
@@ -26,6 +29,7 @@ namespace SnakeWF
             InitializeComponent();
 
             oGame = new Game(pictureBox1,labelPuntuacionNum);
+            labelNumVidas.Text = numVidas.ToString();
             this.KeyPreview = true;
         }
 
@@ -35,7 +39,7 @@ namespace SnakeWF
             timer1.Enabled = true;
             if (Vidas <= 0)
             {
-                Vidas = 3;
+                Vidas = numVidas;
                 labelNumVidas.Text = Vidas.ToString();
                 Puntuacion = 0;
                 labelPuntuacionNum.Text = Puntuacion.ToString();
@@ -53,7 +57,7 @@ namespace SnakeWF
                     switch (Puntuacion)
                     {
                         case 0:
-                            timer1.Interval = 300;
+                            timer1.Interval = 150;
                             break;
                         case 2:
                             timer1.Interval = 220;
@@ -163,7 +167,12 @@ namespace SnakeWF
 
         private void buttonVerRecords_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("RECORDS: " + records.ToString());
+            string message = "";
+            for (int i = 0; i < records.Count; i++)
+            {
+                message += $"Nombre:  {records[i].Nombre} Puntuacion: {records[i].Puntos}\n";
+            }
+            MessageBox.Show(message);
         }
     }
 }

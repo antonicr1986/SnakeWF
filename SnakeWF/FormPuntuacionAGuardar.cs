@@ -24,6 +24,7 @@ namespace SnakeWF
             Puntuacion puntuacion = new Puntuacion();
             puntuacion.Nombre = textBoxNombre.Text;
             puntuacion.Puntos = Convert.ToInt32(labelPuntuacionPartida.Text);
+            Form1.records.Add(puntuacion );
         }
     }
 }
