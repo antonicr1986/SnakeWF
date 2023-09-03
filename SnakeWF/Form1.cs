@@ -28,14 +28,14 @@ namespace SnakeWF
         {
             InitializeComponent();
 
-            oGame = new Game(pictureBox1, pictureBox2, labelPuntuacionNum);
+            oGame = new Game(pictureBoxSnake, pictureBox2, labelPuntuacionNum);
             labelNumVidas.Text = numVidas.ToString();
             this.KeyPreview = true;
         }
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
-            oGame = new Game(pictureBox1, pictureBox2, labelPuntuacionNum);
+            oGame = new Game(pictureBoxSnake, pictureBox2, labelPuntuacionNum);
             timer1.Enabled = true;
             if (Vidas <= 0)
             {

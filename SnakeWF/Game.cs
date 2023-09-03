@@ -97,23 +97,64 @@ namespace SnakeWF
 
         public void Show()
         {
+            int margenIzquierdo = 30;
+            int margenSuperior = 10;
+
+            //Bitmap bmp = new Bitmap(oPictureBox.Width -(2*margenIzquierdo), oPictureBox.Height - (2 * margenSuperior));
             Bitmap bmp = new Bitmap(oPictureBox.Width, oPictureBox.Height);
-            for(int j = 0;j < longitudMapa; j++)
+
+            for (int j = 0;j < longitudMapa; j++)
             {
                 for (int i = 0; i < longitudMapa; i++)
                 {
                     if (Snake.Where(d => d.X == i && d.Y == j).Count() > 0)
                         PaintPixel(bmp, i, j, Color.Black);
                     else
-                        PaintPixel(bmp, i, j, Color.White);
+                        PaintPixel(bmp, i, j, Color.GreenYellow);
                 }
             }
+
+            // Crear una copia del Bitmap original para no modificarlo directamente
+            Bitmap bmpWithBorder = new Bitmap(bmp);
+
+            // Especifica el ancho del borde en píxeles
+            int borderWidth = 1; // Ajusta según tus necesidades
+
+            // Especifica el color del borde
+            Color borderColor = Color.Black;
+
+            // Obtén el ancho y alto del Bitmap
+            int width = bmpWithBorder.Width;
+            int height = bmpWithBorder.Height;
+
+            // Itera a través de los píxeles del borde superior e inferior
+            for (int x = 0; x < width; x++)
+            {
+                for (int y = 0; y < borderWidth; y++)
+                {
+                    bmpWithBorder.SetPixel(x, y, borderColor); // Borde superior
+                    bmpWithBorder.SetPixel(x, height - 1 - y, borderColor); // Borde inferior
+                }
+            }
+
+            // Itera a través de los píxeles del borde izquierdo y derecho
+            for (int y = 0; y < height; y++)
+            {
+                for (int x = 0; x < borderWidth; x++)
+                {
+                    bmpWithBorder.SetPixel(x, y, borderColor); // Borde izquierdo
+                    bmpWithBorder.SetPixel(width - 1 - x, y, borderColor); // Borde derecho
+                }
+            }
+
             //mostrar comestibles
             if (Food!=null)
                 PaintPixel(bmp,Food.X,Food.Y, Color.Red);
 
 
-            oPictureBox.Image = bmp;
+            oPictureBox.Image = bmpWithBorder;
+
+            //oPictureBox.Padding = new Padding(margenIzquierdo, margenSuperior, margenIzquierdo, margenSuperior);
 
             labelPuntuacionNum.Text = Form1.Puntuacion.ToString();
         }

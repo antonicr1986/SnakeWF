@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonStart = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.labelPuntos = new System.Windows.Forms.Label();
@@ -37,19 +36,11 @@
             this.labelVidas = new System.Windows.Forms.Label();
             this.labelNumVidas = new System.Windows.Forms.Label();
             this.buttonVerRecords = new System.Windows.Forms.Button();
+            this.pictureBoxSnake = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSnake)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.pictureBox1.Location = new System.Drawing.Point(89, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(461, 321);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // buttonStart
             // 
@@ -72,44 +63,44 @@
             // labelPuntos
             // 
             this.labelPuntos.AutoSize = true;
-            this.labelPuntos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.labelPuntos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPuntos.Location = new System.Drawing.Point(106, 19);
+            this.labelPuntos.BackColor = System.Drawing.Color.GreenYellow;
+            this.labelPuntos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPuntos.Location = new System.Drawing.Point(441, 232);
             this.labelPuntos.Name = "labelPuntos";
-            this.labelPuntos.Size = new System.Drawing.Size(74, 20);
+            this.labelPuntos.Size = new System.Drawing.Size(80, 20);
             this.labelPuntos.TabIndex = 2;
             this.labelPuntos.Text = "PUNTOS";
             // 
             // labelPuntuacionNum
             // 
             this.labelPuntuacionNum.AutoSize = true;
-            this.labelPuntuacionNum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.labelPuntuacionNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPuntuacionNum.Location = new System.Drawing.Point(199, 19);
+            this.labelPuntuacionNum.BackColor = System.Drawing.Color.GreenYellow;
+            this.labelPuntuacionNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPuntuacionNum.Location = new System.Drawing.Point(470, 263);
             this.labelPuntuacionNum.Name = "labelPuntuacionNum";
-            this.labelPuntuacionNum.Size = new System.Drawing.Size(18, 20);
+            this.labelPuntuacionNum.Size = new System.Drawing.Size(19, 20);
             this.labelPuntuacionNum.TabIndex = 3;
             this.labelPuntuacionNum.Text = "0";
             // 
             // labelVidas
             // 
             this.labelVidas.AutoSize = true;
-            this.labelVidas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.labelVidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelVidas.Location = new System.Drawing.Point(428, 19);
+            this.labelVidas.BackColor = System.Drawing.Color.GreenYellow;
+            this.labelVidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVidas.Location = new System.Drawing.Point(444, 43);
             this.labelVidas.Name = "labelVidas";
-            this.labelVidas.Size = new System.Drawing.Size(59, 20);
+            this.labelVidas.Size = new System.Drawing.Size(64, 20);
             this.labelVidas.TabIndex = 4;
             this.labelVidas.Text = "VIDAS";
             // 
             // labelNumVidas
             // 
             this.labelNumVidas.AutoSize = true;
-            this.labelNumVidas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.labelNumVidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumVidas.Location = new System.Drawing.Point(493, 19);
+            this.labelNumVidas.BackColor = System.Drawing.Color.GreenYellow;
+            this.labelNumVidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNumVidas.Location = new System.Drawing.Point(470, 63);
             this.labelNumVidas.Name = "labelNumVidas";
-            this.labelNumVidas.Size = new System.Drawing.Size(18, 20);
+            this.labelNumVidas.Size = new System.Drawing.Size(19, 20);
             this.labelNumVidas.TabIndex = 5;
             this.labelNumVidas.Text = "3";
             // 
@@ -123,6 +114,15 @@
             this.buttonVerRecords.Text = "VER RECORDS";
             this.buttonVerRecords.UseVisualStyleBackColor = false;
             this.buttonVerRecords.Click += new System.EventHandler(this.buttonVerRecords_Click);
+            // 
+            // pictureBoxSnake
+            // 
+            this.pictureBoxSnake.BackColor = System.Drawing.Color.GreenYellow;
+            this.pictureBoxSnake.Location = new System.Drawing.Point(107, 22);
+            this.pictureBoxSnake.Name = "pictureBoxSnake";
+            this.pictureBoxSnake.Size = new System.Drawing.Size(430, 300);
+            this.pictureBoxSnake.TabIndex = 0;
+            this.pictureBoxSnake.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -146,7 +146,7 @@
             this.Controls.Add(this.labelNumVidas);
             this.Controls.Add(this.buttonVerRecords);
             this.Controls.Add(this.buttonStart);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxSnake);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -154,7 +154,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MITICAL NOKIA SNAKE";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSnake)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -163,7 +163,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxSnake;
         private System.Windows.Forms.Button buttonStart;
         private System.Windows.Forms.Label labelPuntos;
         private System.Windows.Forms.Label labelPuntuacionNum;
