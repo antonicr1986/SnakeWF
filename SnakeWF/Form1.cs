@@ -130,28 +130,28 @@ namespace SnakeWF
             {
                 keyIsPressed = true;
 
-                if (e.KeyCode == Keys.NumPad8)
+                if (e.KeyCode == Keys.NumPad8 && oGame.ActualDirection != Game.Direction.Down)
                 {
                     oGame.ActualDirection = Game.Direction.Up;
                     /*if (timer1.Interval >= 4)
                         timer1.Interval = timer1.Interval / 2;*/
                 }
 
-                if (e.KeyCode == Keys.NumPad6)
+                if (e.KeyCode == Keys.NumPad6 && oGame.ActualDirection != Game.Direction.Left)
                 {
                     oGame.ActualDirection = Game.Direction.Right;
                     /*if (timer1.Interval >= 4)
                         timer1.Interval = timer1.Interval / 2;*/
                 }
 
-                if (e.KeyCode == Keys.NumPad2)
+                if (e.KeyCode == Keys.NumPad2 && oGame.ActualDirection != Game.Direction.Up)
                 {
                     oGame.ActualDirection = Game.Direction.Down;
                     /*if (timer1.Interval >= 4)
                         timer1.Interval = timer1.Interval / 2;*/
                 }
 
-                if (e.KeyCode == Keys.NumPad4)
+                if (e.KeyCode == Keys.NumPad4 && oGame.ActualDirection != Game.Direction.Right)
                 {
                     oGame.ActualDirection = Game.Direction.Left;
                     /*if (timer1.Interval >= 4)
