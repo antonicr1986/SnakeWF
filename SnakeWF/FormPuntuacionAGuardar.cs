@@ -25,6 +25,20 @@ namespace SnakeWF
             puntuacion.Nombre = textBoxNombre.Text;
             puntuacion.Puntos = Convert.ToInt32(labelPuntuacionPartida.Text);
             Form1.records.Add(puntuacion );
+
+            using (var WF_SnakeEntities = new WF_SnakeEntities())
+            {
+                foreach (var record in Form1.records)
+                {
+                    var nuevoRecord = new Records
+                    {
+                        Nombre = puntuacion.Nombre,
+                        Puntuacion = puntuacion.Puntos
+                    };
+                    WF_SnakeEntities.Records.Add(nuevoRecord);
+                }
+                WF_SnakeEntities.SaveChanges();
+            }
         }
     }
 }
