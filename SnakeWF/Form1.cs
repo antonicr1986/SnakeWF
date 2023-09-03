@@ -57,7 +57,7 @@ namespace SnakeWF
                     switch (Puntuacion)
                     {
                         case 0:
-                            timer1.Interval = 150;
+                            timer1.Interval = 270;
                             break;
                         case 2:
                             timer1.Interval = 220;
