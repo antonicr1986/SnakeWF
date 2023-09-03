@@ -169,22 +169,8 @@ namespace SnakeWF
 
         private void buttonVerRecords_Click(object sender, EventArgs e)
         {
-            string message = "";
-
-            using (WF_SnakeEntities contexto = new WF_SnakeEntities())
-            {
-                var records = contexto.Records
-                    .OrderByDescending(record => record.Puntuacion)
-                    .ToList();
-
-                foreach (var record in records)
-                {
-                    string mensajeTabulado = $"Nombre: {record.Nombre}\t\tPuntuación: {record.Puntuacion.ToString().PadRight(50)}\n";
-                    message += mensajeTabulado;
-                }
-                MessageBox.Show(message, "PUNTUACION GENERAL");
-            }
-
+            FormRecords ventanaRecords = new FormRecords();
+            ventanaRecords.ShowDialog();    
         }
     }
 }

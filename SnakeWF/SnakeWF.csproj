@@ -82,6 +82,12 @@
     <Compile Include="FormPuntuacionAGuardar.Designer.cs">
       <DependentUpon>FormPuntuacionAGuardar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRecords.Designer.cs">
+      <DependentUpon>FormRecords.cs</DependentUpon>
+    </Compile>
     <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -94,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPuntuacionAGuardar.resx">
       <DependentUpon>FormPuntuacionAGuardar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRecords.resx">
+      <DependentUpon>FormRecords.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
