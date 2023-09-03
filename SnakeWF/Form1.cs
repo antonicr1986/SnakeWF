@@ -14,6 +14,8 @@ namespace SnakeWF
     public partial class Form1 : Form
     {
         public static readonly int numVidas = 1;
+        public static readonly int lowestSpeedInterval = 250;
+        public static readonly int turboSpeedInterval = 40;
 
         Game oGame;
         public static List<Puntuacion> records = new List<Puntuacion>();
@@ -57,48 +59,48 @@ namespace SnakeWF
                     switch (Puntuacion)
                     {
                         case 0:
-                            timer1.Interval = 270;
+                            timer1.Interval = lowestSpeedInterval;
                             break;
-                        case 2:
-                            timer1.Interval = 220;
-                            break;
-                        case 4:
-                            timer1.Interval = 180;
-                            break;
-                        case 6:
-                            timer1.Interval = 150;
-                            break;
-                        case 8:
-                            timer1.Interval = 126;
+                        case 5:
+                            timer1.Interval = 210;
                             break;
                         case 10:
-                            timer1.Interval = 100;
+                            timer1.Interval = 180;
                             break;
-                        case 12:
-                            timer1.Interval = 76;
-                            break;
-                        case 14:
-                            timer1.Interval = 50;
-                            break;
-                        case 16:
-                            timer1.Interval = 26;
-                            break;
-                        case 18:
-                            timer1.Interval = 16;
+                        case 15:
+                            timer1.Interval = 150;
                             break;
                         case 20:
+                            timer1.Interval = 126;
+                            break;
+                        case 25:
+                            timer1.Interval = 100;
+                            break;
+                        case 30:
+                            timer1.Interval = 76;
+                            break;
+                        case 35:
+                            timer1.Interval = 50;
+                            break;
+                        case 40:
+                            timer1.Interval = 26;
+                            break;
+                        case 45:
+                            timer1.Interval = 16;
+                            break;
+                        case 50:
                             timer1.Interval = 10;
                             break;
-                        case 22:
+                        case 55:
                             timer1.Interval = 8;
                             break;
-                        case 24:
+                        case 60:
                             timer1.Interval = 6;
                             break;
-                        case 26:
+                        case 65:
                             timer1.Interval = 4;
                             break;
-                        case 28:
+                        case 70:
                             timer1.Interval = 2;
                             break;
                         default:
@@ -133,29 +135,29 @@ namespace SnakeWF
                 if (e.KeyCode == Keys.NumPad8 && oGame.ActualDirection != Game.Direction.Down)
                 {
                     oGame.ActualDirection = Game.Direction.Up;
-                    /*if (timer1.Interval >= 4)
-                        timer1.Interval = timer1.Interval / 2;*/
+                    if (timer1.Interval >= 50 && timer1.Interval <= lowestSpeedInterval)
+                        timer1.Interval = turboSpeedInterval;
                 }
 
                 if (e.KeyCode == Keys.NumPad6 && oGame.ActualDirection != Game.Direction.Left)
                 {
                     oGame.ActualDirection = Game.Direction.Right;
-                    /*if (timer1.Interval >= 4)
-                        timer1.Interval = timer1.Interval / 2;*/
+                    if (timer1.Interval >= 50 && timer1.Interval <= lowestSpeedInterval)
+                        timer1.Interval = turboSpeedInterval;
                 }
 
                 if (e.KeyCode == Keys.NumPad2 && oGame.ActualDirection != Game.Direction.Up)
                 {
                     oGame.ActualDirection = Game.Direction.Down;
-                    /*if (timer1.Interval >= 4)
-                        timer1.Interval = timer1.Interval / 2;*/
+                    if (timer1.Interval >= 50 && timer1.Interval <= lowestSpeedInterval)
+                        timer1.Interval = turboSpeedInterval;
                 }
 
                 if (e.KeyCode == Keys.NumPad4 && oGame.ActualDirection != Game.Direction.Right)
                 {
                     oGame.ActualDirection = Game.Direction.Left;
-                    /*if (timer1.Interval >= 4)
-                        timer1.Interval = timer1.Interval / 2;*/
+                    if (timer1.Interval >= 50 && timer1.Interval <= lowestSpeedInterval)
+                        timer1.Interval = turboSpeedInterval;
                 }
             }
         }
@@ -171,11 +173,14 @@ namespace SnakeWF
 
             using (WF_SnakeEntities contexto = new WF_SnakeEntities())
             {
-                var records = contexto.Records.ToList();
+                var records = contexto.Records
+                    .OrderByDescending(record => record.Puntuacion)
+                    .ToList();
 
                 foreach (var record in records)
                 {
-                    message += $"Nombre: {record.Nombre}\t\tPuntuación: {record.Puntuacion}\n";
+                    string mensajeTabulado = $"Nombre: {record.Nombre}\t\tPuntuación: {record.Puntuacion.ToString().PadRight(50)}\n";
+                    message += mensajeTabulado;
                 }
                 MessageBox.Show(message, "PUNTUACION GENERAL");
             }
