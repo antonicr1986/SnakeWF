@@ -23,6 +23,7 @@ namespace SnakeWF
         private Random oRandom = new Random();
 
         PictureBox oPictureBox;
+        PictureBox pictureBoxNokia;
         Label labelPuntuacionNum;
 
         private int InitialPositionX
@@ -64,9 +65,10 @@ namespace SnakeWF
             return false;
         }
 
-        public Game(PictureBox oPictureBox, Label labelPuntuacionNum)
+        public Game(PictureBox oPictureBox,PictureBox oPictureBox2, Label labelPuntuacionNum)
         {
             this.oPictureBox = oPictureBox;
+            this.pictureBoxNokia = oPictureBox2;
             this.labelPuntuacionNum = labelPuntuacionNum; 
             Reset();
         }

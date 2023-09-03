@@ -14,3 +14,4 @@ C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\bin\Release\EntityFramework.S
 C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\bin\Release\EntityFramework.xml
 C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\bin\Release\EntityFramework.SqlServer.xml
 C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\obj\Release\SnakeWF.csproj.CopyComplete
+C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\obj\Release\SnakeWF.Form2.resources
