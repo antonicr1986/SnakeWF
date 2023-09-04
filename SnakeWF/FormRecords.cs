@@ -17,11 +17,14 @@ namespace SnakeWF
         {
             InitializeComponent();
             CargarPuntuacionesMaximas();
+
+            //Aplicamos propiedades que nos interesan al dataGridView1
+            dataGridView1.Columns[0].Visible = false;
             dataGridView1.Columns["Nombre"].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridView1.Columns["id"].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             dataGridView1.Columns["Puntuacion"].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
         }
 
+        //Método para cargar en dataGridView1 los datos de la BD con los records del juego
         private void CargarPuntuacionesMaximas()
         {
             try
