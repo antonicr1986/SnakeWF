@@ -55,7 +55,6 @@ namespace SnakeWF
                 return false;
             }
         }
-
         public bool GameOver()
         {
             if (Form1.Vidas == 0 )
@@ -73,6 +72,7 @@ namespace SnakeWF
             Reset();
         }
 
+        //Método que resetea la partida 
         public void Reset()
         {
             Snake = new List<Square>();
@@ -95,11 +95,9 @@ namespace SnakeWF
             
         }
 
+        #region Metodos principales que se accionan con el timer
         public void Show()
         {
-            int margenIzquierdo = 30;
-            int margenSuperior = 10;
-
             //Bitmap bmp = new Bitmap(oPictureBox.Width -(2*margenIzquierdo), oPictureBox.Height - (2 * margenSuperior));
             Bitmap bmp = new Bitmap(oPictureBox.Width, oPictureBox.Height);
 
@@ -116,18 +114,12 @@ namespace SnakeWF
 
             // Crear una copia del Bitmap original para no modificarlo directamente
             Bitmap bmpWithBorder = new Bitmap(bmp);
-
-            // Especifica el ancho del borde en píxeles
-            int borderWidth = 1; // Ajusta según tus necesidades
-
-            // Especifica el color del borde
+            int borderWidth = 1;
             Color borderColor = Color.Black;
-
-            // Obtén el ancho y alto del Bitmap
             int width = bmpWithBorder.Width;
             int height = bmpWithBorder.Height;
 
-            // Itera a través de los píxeles del borde superior e inferior
+            // Borde superior e inferior
             for (int x = 0; x < width; x++)
             {
                 for (int y = 0; y < borderWidth; y++)
@@ -137,7 +129,7 @@ namespace SnakeWF
                 }
             }
 
-            // Itera a través de los píxeles del borde izquierdo y derecho
+            // Borde izquierdo y derecho
             for (int y = 0; y < height; y++)
             {
                 for (int x = 0; x < borderWidth; x++)
@@ -150,7 +142,6 @@ namespace SnakeWF
             //mostrar comestibles
             if (Food!=null)
                 PaintPixel(bmpWithBorder,Food.X,Food.Y, Color.Red);
-
 
             oPictureBox.Image = bmpWithBorder;
 
@@ -205,9 +196,11 @@ namespace SnakeWF
                     }
             }
             GetNextMoveSnake();
-
             SnakeEating();
         }
+        #endregion
+
+        #region Métodos auxiliares
         private void GetNextMoveSnake()
         {
             if (Snake.Count > 1)
@@ -259,7 +252,8 @@ namespace SnakeWF
                     bmp.SetPixel(i + (x * scale),j + (y * scale), color);
                 }
             }
-        }     
+        }
+        #endregion
     }
 
     public class Square

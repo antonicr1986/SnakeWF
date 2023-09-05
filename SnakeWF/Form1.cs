@@ -71,6 +71,7 @@ namespace SnakeWF
             this.KeyPreview = true;
         }
 
+        #region eventos Click botones
         private void buttonStart_Click(object sender, EventArgs e)
         {
             snakeGame.Reset();  
@@ -83,6 +84,25 @@ namespace SnakeWF
                 labelPuntuacionNum.Text = Puntuacion.ToString();
             }                      
         }
+
+        private void buttonStart_KeyUp(object sender, KeyEventArgs e)
+        {
+            keyIsPressed = false;
+        }
+
+        private void buttonVerRecords_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                FormRecords ventanaRecords = new FormRecords();
+                ventanaRecords.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ha sucedido un error: " + ex.Message);
+            }
+        }
+        #endregion
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -116,6 +136,7 @@ namespace SnakeWF
             }    
         }
 
+        #region Movimiento serpiente
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             if (!keyIsPressed)
@@ -128,17 +149,14 @@ namespace SnakeWF
                     /*if (timer1.Interval >= 50 && timer1.Interval <= lowestSpeedInterval)
                         timer1.Interval = turboSpeedInterval;*/
                 }
-
                 if (e.KeyCode == Keys.NumPad6)
                 {
                     MoveRight();
                 }
-
                 if (e.KeyCode == Keys.NumPad2)
                 {
                     MoveDown();
                 }
-
                 if (e.KeyCode == Keys.NumPad4)
                 {
                     MoveLeft();
@@ -180,23 +198,7 @@ namespace SnakeWF
 
             }
         }
-
-        private void buttonStart_KeyUp(object sender, KeyEventArgs e)
-        {
-            keyIsPressed = false;
-        }
-
-        private void buttonVerRecords_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                FormRecords ventanaRecords = new FormRecords();
-                ventanaRecords.ShowDialog();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Ha sucedido un error: "+ex.Message);
-            }
-        }
+        #endregion
+    
     }
 }
