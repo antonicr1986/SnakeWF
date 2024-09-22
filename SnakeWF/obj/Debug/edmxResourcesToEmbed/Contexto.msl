@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WF_SnakeModelStoreContainer" CdmEntityContainer="WF_SnakeEntities">
+    <EntitySetMapping Name="Records">
+      <EntityTypeMapping TypeName="WF_SnakeModel.Records">
+        <MappingFragment StoreEntitySet="Records">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Puntuacion" ColumnName="Puntuacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

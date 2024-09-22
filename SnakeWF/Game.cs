@@ -57,7 +57,7 @@ namespace SnakeWF
         }
         public bool GameOver()
         {
-            if (Form1.Vidas == 0 )
+            if (FormMain.Vidas == 0 )
             return true;
 
             else
@@ -88,9 +88,9 @@ namespace SnakeWF
                 }
             }
 
-            if (Form1.Vidas <=0) 
+            if (FormMain.Vidas <=0) 
             {
-               Form1. Puntuacion = 0;
+               FormMain. Puntuacion = 0;
             }
             
         }
@@ -147,12 +147,12 @@ namespace SnakeWF
 
             //oPictureBox.Padding = new Padding(margenIzquierdo, margenSuperior, margenIzquierdo, margenSuperior);
 
-            labelPuntuacionNum.Text = Form1.Puntuacion.ToString();
+            labelPuntuacionNum.Text = FormMain.Puntuacion.ToString();
         }
 
         public void Next()
         {
-            if (Form1.Vidas == 0)
+            if (FormMain.Vidas == 0)
             {
                 Reset();
             }
@@ -227,7 +227,7 @@ namespace SnakeWF
             if (Snake[0].X==Food.X && Snake[0].Y == Food.Y)
             {
                 Food = null;
-                Form1.Puntuacion++;
+                FormMain.Puntuacion++;
                 //alargamos el snake
                 Square LastSquare = Snake[Snake.Count - 1];
                 Square oSquare = new Square(LastSquare.XOld, LastSquare.YOld);

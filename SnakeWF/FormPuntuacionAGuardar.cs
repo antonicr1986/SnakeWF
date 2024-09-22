@@ -24,9 +24,25 @@ namespace SnakeWF
             Puntuacion puntuacion = new Puntuacion();
             puntuacion.Nombre = textBoxNombre.Text;
             puntuacion.Puntos = Convert.ToInt32(labelPuntuacionPartida.Text);
-            Form1.records.Add(puntuacion);
+            FormMain.records.Add(puntuacion);
 
+            //BDOnline
             using (var WF_SnakeEntities = new WF_SnakeEntities())
+            {
+                foreach (var record in FormMain.records)
+                {
+                    var nuevoRecord = new Records
+                    {
+                        Nombre = puntuacion.Nombre,
+                        Puntuacion = puntuacion.Puntos
+                    };
+                    WF_SnakeEntities.Records.Add(nuevoRecord);
+                }
+                WF_SnakeEntities.SaveChanges();
+            }
+
+            //BD Local
+            /*using (var WF_SnakeEntities = new WF_SnakeEntities())
             {
                 foreach (var record in Form1.records)
                 {
@@ -38,7 +54,7 @@ namespace SnakeWF
                     WF_SnakeEntities.Records.Add(nuevoRecord);
                 }
                 WF_SnakeEntities.SaveChanges();
-            }
+            }*/
         }
     }
 }

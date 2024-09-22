@@ -15,3 +15,20 @@ C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\bin\Release\EntityFramework.x
 C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\bin\Release\EntityFramework.SqlServer.xml
 C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\obj\Release\SnakeWF.csproj.CopyComplete
 C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\obj\Release\SnakeWF.FormRecords.resources
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Release\SnakeWF.exe.config
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Release\SnakeWF.exe
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Release\SnakeWF.pdb
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Release\EntityFramework.dll
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Release\EntityFramework.xml
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Release\SnakeWF.csproj.AssemblyReference.cache
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Release\SnakeWF.FormMain.resources
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Release\SnakeWF.FormPuntuacionAGuardar.resources
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Release\SnakeWF.FormRecords.resources
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Release\SnakeWF.Properties.Resources.resources
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Release\SnakeWF.csproj.GenerateResource.cache
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Release\SnakeWF.csproj.CoreCompileInputs.cache
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Release\SnakeWF.csproj.CopyComplete
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Release\SnakeWF.exe
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Release\SnakeWF.pdb

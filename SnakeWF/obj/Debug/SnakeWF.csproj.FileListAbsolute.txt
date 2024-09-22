@@ -18,3 +18,18 @@ C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\obj\Debug\SnakeWF.csproj.Gene
 C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\obj\Debug\SnakeWF.csproj.CoreCompileInputs.cache
 C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\obj\Debug\SnakeWF.exe
 C:\Users\anton\OneDrive\Escritorio\SnakeWF\SnakeWF\obj\Debug\SnakeWF.pdb
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Debug\SnakeWF.exe.config
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Debug\SnakeWF.exe
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Debug\SnakeWF.pdb
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Debug\SnakeWF.exe
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Debug\SnakeWF.pdb
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Debug\EntityFramework.dll
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Debug\EntityFramework.xml
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Debug\SnakeWF.csprojResolveAssemblyReference.cache
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Debug\SnakeWF.Form1.resources
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Debug\SnakeWF.FormPuntuacionAGuardar.resources
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Debug\SnakeWF.FormRecords.resources
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Debug\SnakeWF.Properties.Resources.resources
+C:\Users\anton\OneDrive\Escritorio\Proyectos git cuenta antigua\SnakeWF\SnakeWF\obj\Debug\SnakeWF.csproj.GenerateResource.Cache
