@@ -102,7 +102,7 @@
             this.MaximizeBox = false;
             this.Name = "FormPuntuacionAGuardar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormPuntuacionAGuardar";
+            this.Text = "Guardar puntuación";
             this.ResumeLayout(false);
             this.PerformLayout();
 

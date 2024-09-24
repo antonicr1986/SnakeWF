@@ -1,0 +1,4 @@
+TODO
+-Bug que en ver records no me muestra todos los records de la tabla???
+-Bug que me ha pasado de momento una vez que guarda en la BD dos veces el ultimo record
+-Bug que ocurre a veces que mueres sin chocarte haciendo un movimiento rápido de serpiente en direcciones opuestas.

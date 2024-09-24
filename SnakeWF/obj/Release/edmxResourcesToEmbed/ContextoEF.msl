@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBonlineAntonioModelStoreContainer" CdmEntityContainer="DBonlineAntonioEntities">
+    <EntitySetMapping Name="Snake_Records">
+      <EntityTypeMapping TypeName="DBonlineAntonioModel.Snake_Records">
+        <MappingFragment StoreEntitySet="Snake_Records">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Puntuacion" ColumnName="Puntuacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

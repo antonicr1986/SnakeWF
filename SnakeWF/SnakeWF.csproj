@@ -70,6 +70,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Contexto.edmx</DependentUpon>
     </Compile>
+    <Compile Include="ContextoEF.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContextoEF.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContextoEF.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContextoEF.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContextoEF.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContextoEF.edmx</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +109,9 @@
     <Compile Include="Puntuacion.cs" />
     <Compile Include="Records.cs">
       <DependentUpon>Contexto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Snake_Records.cs">
+      <DependentUpon>ContextoEF.tt</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
@@ -121,6 +139,13 @@
     <None Include="Contexto.edmx.diagram">
       <DependentUpon>Contexto.edmx</DependentUpon>
     </None>
+    <EntityDeploy Include="ContextoEF.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ContextoEF.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ContextoEF.edmx.diagram">
+      <DependentUpon>ContextoEF.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -146,6 +171,16 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Contexto.edmx</DependentUpon>
       <LastGenOutput>Contexto.cs</LastGenOutput>
+    </Content>
+    <Content Include="ContextoEF.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ContextoEF.edmx</DependentUpon>
+      <LastGenOutput>ContextoEF.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ContextoEF.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ContextoEF.edmx</DependentUpon>
+      <LastGenOutput>ContextoEF.cs</LastGenOutput>
     </Content>
     <None Include="Images\Nokia.jpg" />
   </ItemGroup>

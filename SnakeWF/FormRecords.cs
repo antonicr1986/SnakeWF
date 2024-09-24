@@ -29,9 +29,9 @@ namespace SnakeWF
         {
             try
             {
-                using (WF_SnakeEntities contexto= new WF_SnakeEntities()) 
+                using (DBonlineAntonioEntities contexto = new DBonlineAntonioEntities()) 
                 {
-                    var maxScores = contexto.Records
+                    var maxScores = contexto.Snake_Records
                         .GroupBy(record => record.Nombre)
                         .Select(group => group.OrderByDescending(record => record.Puntuacion).FirstOrDefault())
                         .OrderByDescending(record => record.Puntuacion)

@@ -27,16 +27,16 @@ namespace SnakeWF
             FormMain.records.Add(puntuacion);
 
             //BDOnline
-            using (var WF_SnakeEntities = new WF_SnakeEntities())
+            using (var WF_SnakeEntities = new DBonlineAntonioEntities())
             {
                 foreach (var record in FormMain.records)
                 {
-                    var nuevoRecord = new Records
+                    var nuevoRecord = new Snake_Records
                     {
                         Nombre = puntuacion.Nombre,
                         Puntuacion = puntuacion.Puntos
                     };
-                    WF_SnakeEntities.Records.Add(nuevoRecord);
+                    WF_SnakeEntities.Snake_Records.Add(nuevoRecord);
                 }
                 WF_SnakeEntities.SaveChanges();
             }
