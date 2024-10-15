@@ -13,6 +13,8 @@ namespace SnakeWF
 {
     public partial class FormRecords : Form
     {
+        private const string MensajeErrorAccesoBD = "Error al acceder a la base de datos: ";
+
         public FormRecords()
         {
             InitializeComponent();
@@ -43,7 +45,7 @@ namespace SnakeWF
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al acceder a la base de datos: " + ex.Message);
+                MessageBox.Show(MensajeErrorAccesoBD + ex.Message);
             }
         }
     }

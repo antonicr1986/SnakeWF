@@ -12,15 +12,17 @@ namespace SnakeWF
 {
     public class Game
     {
-        public int scale = 10;
-        public int longitudMapa = 30;
+        private const int longitudMapa = 30;
+
+        private int scale = 10;       
         private int[,] cuadros;
+        private Square food = null;
+        private Random oRandom = new Random();
         private List<Square> Snake;
 
         public enum Direction { Right,Down,Left,Up }
         public Direction ActualDirection = Direction.Right;
-        private Square Food = null;
-        private Random oRandom = new Random();
+       
 
         PictureBox oPictureBox;
         PictureBox pictureBoxNokia;
@@ -140,8 +142,8 @@ namespace SnakeWF
             }
 
             //mostrar comestibles
-            if (Food!=null)
-                PaintPixel(bmpWithBorder,Food.X,Food.Y, Color.Red);
+            if (food!=null)
+                PaintPixel(bmpWithBorder,food.X,food.Y, Color.Red);
 
             oPictureBox.Image = bmpWithBorder;
 
@@ -156,7 +158,7 @@ namespace SnakeWF
             {
                 Reset();
             }
-            if (Food == null) 
+            if (food == null) 
                 GetFood();
 
             GetHistorySnake();
@@ -224,9 +226,9 @@ namespace SnakeWF
 
         private void SnakeEating()
         {
-            if (Snake[0].X==Food.X && Snake[0].Y == Food.Y)
+            if (Snake[0].X==food.X && Snake[0].Y == food.Y)
             {
-                Food = null;
+                food = null;
                 FormMain.Puntuacion++;
                 //alargamos el snake
                 Square LastSquare = Snake[Snake.Count - 1];
@@ -240,7 +242,7 @@ namespace SnakeWF
             int X = oRandom.Next(0, longitudMapa - 1);
             int Y = oRandom.Next(0, longitudMapa - 1);
 
-            Food = new Square(X, Y);
+            food = new Square(X, Y);
         }
         
         private void PaintPixel (Bitmap bmp, int x, int y, Color color)

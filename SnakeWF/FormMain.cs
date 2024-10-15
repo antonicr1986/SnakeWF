@@ -14,23 +14,24 @@ namespace SnakeWF
 {
     public partial class FormMain : Form
     {
-        public static readonly int numVidas = 2;
-        public static readonly int lowestSpeedInterval = 250;
-        public static readonly int fase2Interval = 210;
-        public static readonly int fase3Interval = 180;
-        public static readonly int fase4Interval = 150;
-        public static readonly int fase5Interval = 126;
-        public static readonly int fase6Interval = 100;
-        public static readonly int fase7Interval = 76;
-        public static readonly int fase8Interval = 50;
-        public static readonly int fase9Interval = 36;
-        public static readonly int fase10Interval = 26;
-        public static readonly int fase11Interval = 16;
-        public static readonly int fase12Interval = 10;
-        public static readonly int fase13Interval = 8;
-        public static readonly int fase14Interval = 6;
-        public static readonly int fase15Interval = 4;
-        public static readonly int fase16Interval = 2;
+        //CONSTANTES
+        private const int NumVidas = 2;
+        private const int lowestSpeedInterval = 250;
+        private const int fase2Interval = 210;
+        private const int fase3Interval = 180;
+        private const int fase4Interval = 150;
+        private const int fase5Interval = 126;
+        private const int fase6Interval = 100;
+        private const int fase7Interval = 76;
+        private const int fase8Interval = 50;
+        private const int fase9Interval = 36;
+        private const int fase10Interval = 26;
+        private const int fase11Interval = 16;
+        private const int fase12Interval = 10;
+        private const int fase13Interval = 8;
+        private const int fase14Interval = 6;
+        private const int fase15Interval = 4;
+        private const int fase16Interval = 2;
 
 
         public static readonly int turboSpeedInterval = 40;
@@ -57,7 +58,7 @@ namespace SnakeWF
             { 100, fase16Interval }
         };
 
-        public  static int Vidas = numVidas;
+        public static int Vidas = NumVidas;
         public static int Puntuacion = 0;
         public static int ultimaVelocidad = 1;
         private bool keyIsPressed = false;
@@ -67,7 +68,7 @@ namespace SnakeWF
             InitializeComponent();
 
             snakeGame = new Game(pictureBoxSnake, pictureBox2, labelPuntuacionNum);
-            labelNumVidas.Text = numVidas.ToString();
+            labelNumVidas.Text = NumVidas.ToString();
             this.KeyPreview = true;
         }
 
@@ -78,7 +79,7 @@ namespace SnakeWF
             timer1.Enabled = true;
             if (Vidas <= 0)
             {
-                Vidas = numVidas;
+                Vidas = NumVidas;
                 labelNumVidas.Text = Vidas.ToString();
                 Puntuacion = 0;
                 labelPuntuacionNum.Text = Puntuacion.ToString();
