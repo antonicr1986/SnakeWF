@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\formrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\snakewf\\puntuacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\puntuacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormRecords.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormRecords.cs",
+              "RelativeDocumentMoniker": "SnakeWF\\FormRecords.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormRecords.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SnakeWF\\FormRecords.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T22:58:26.348Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPuntuacionAGuardar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormPuntuacionAGuardar.cs",
+              "RelativeDocumentMoniker": "SnakeWF\\FormPuntuacionAGuardar.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormPuntuacionAGuardar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SnakeWF\\FormPuntuacionAGuardar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T22:57:47.953Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPuntuacionAGuardar.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormPuntuacionAGuardar.cs",
+              "RelativeDocumentMoniker": "SnakeWF\\FormPuntuacionAGuardar.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormPuntuacionAGuardar.cs",
+              "RelativeToolTip": "SnakeWF\\FormPuntuacionAGuardar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAEwBkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T22:55:56.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Puntuacion.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\Puntuacion.cs",
+              "RelativeDocumentMoniker": "SnakeWF\\Puntuacion.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\Puntuacion.cs",
+              "RelativeToolTip": "SnakeWF\\Puntuacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T22:55:57.188Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

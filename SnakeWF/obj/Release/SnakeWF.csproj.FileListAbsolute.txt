@@ -49,3 +49,5 @@ C:\Users\anton\OneDrive\Escritorio\Git julio\SnakeWF\SnakeWF\obj\Release\SnakeWF
 C:\Users\anton\OneDrive\Escritorio\Git julio\SnakeWF\SnakeWF\obj\Release\SnakeWF.csproj.CopyComplete
 C:\Users\anton\OneDrive\Escritorio\Git julio\SnakeWF\SnakeWF\obj\Release\SnakeWF.exe
 C:\Users\anton\OneDrive\Escritorio\Git julio\SnakeWF\SnakeWF\obj\Release\SnakeWF.pdb
+C:\Users\anton\OneDrive\Proyectos GIthub\SnakeWF\SnakeWF\obj\Release\SnakeWF.exe
+C:\Users\anton\OneDrive\Proyectos GIthub\SnakeWF\SnakeWF\obj\Release\SnakeWF.pdb
