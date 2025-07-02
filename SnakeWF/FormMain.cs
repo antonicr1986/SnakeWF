@@ -144,21 +144,21 @@ namespace SnakeWF
             {
                 keyIsPressed = true;
 
-                if (e.KeyCode == Keys.NumPad8)
+                if (e.KeyCode == Keys.NumPad8|| e.KeyCode == Keys.Up)
                 {
                     MoveUp();
                     /*if (timer1.Interval >= 50 && timer1.Interval <= lowestSpeedInterval)
                         timer1.Interval = turboSpeedInterval;*/
                 }
-                if (e.KeyCode == Keys.NumPad6)
+                if (e.KeyCode == Keys.NumPad6 || e.KeyCode == Keys.Right)
                 {
                     MoveRight();
                 }
-                if (e.KeyCode == Keys.NumPad2)
+                if (e.KeyCode == Keys.NumPad2 || e.KeyCode == Keys.Down)
                 {
                     MoveDown();
                 }
-                if (e.KeyCode == Keys.NumPad4)
+                if (e.KeyCode == Keys.NumPad4 || e.KeyCode == Keys.Left)
                 {
                     MoveLeft();
                 }

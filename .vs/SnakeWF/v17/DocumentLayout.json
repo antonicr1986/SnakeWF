@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\formrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\snakewf\\puntuacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\puntuacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|c:\\users\\anton\\onedrive\\proyectos github\\snakewf\\snakewf\\formrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85A45DC4-F45E-4C0C-9781-0EDDC603E21E}|SnakeWF\\SnakeWF.csproj|solutionrelative:snakewf\\formpuntuacionaguardar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,6 +47,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormMain.cs",
+              "RelativeDocumentMoniker": "SnakeWF\\FormMain.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormMain.cs",
+              "RelativeToolTip": "SnakeWF\\FormMain.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAcwKAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T23:07:39.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormMain.cs",
+              "RelativeDocumentMoniker": "SnakeWF\\FormMain.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SnakeWF\\FormMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T23:07:34.894Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\Game.cs",
+              "RelativeDocumentMoniker": "SnakeWF\\Game.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\Game.cs",
+              "RelativeToolTip": "SnakeWF\\Game.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAkwMwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T23:06:57.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\Program.cs",
+              "RelativeDocumentMoniker": "SnakeWF\\Program.cs",
+              "ToolTip": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\Program.cs",
+              "RelativeToolTip": "SnakeWF\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T23:06:52.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FormRecords.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormRecords.cs",
               "RelativeDocumentMoniker": "SnakeWF\\FormRecords.cs",
@@ -42,19 +109,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "FormPuntuacionAGuardar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormPuntuacionAGuardar.cs",
               "RelativeDocumentMoniker": "SnakeWF\\FormPuntuacionAGuardar.cs",
               "ToolTip": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormPuntuacionAGuardar.cs [Dise\u00F1o]",
               "RelativeToolTip": "SnakeWF\\FormPuntuacionAGuardar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T22:57:47.953Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-07-02T22:57:47.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FormPuntuacionAGuardar.cs",
               "DocumentMoniker": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\FormPuntuacionAGuardar.cs",
               "RelativeDocumentMoniker": "SnakeWF\\FormPuntuacionAGuardar.cs",
@@ -62,8 +128,7 @@
               "RelativeToolTip": "SnakeWF\\FormPuntuacionAGuardar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAEwBkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T22:55:56.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T22:55:56.837Z"
             },
             {
               "$type": "Document",
@@ -73,9 +138,10 @@
               "RelativeDocumentMoniker": "SnakeWF\\Puntuacion.cs",
               "ToolTip": "C:\\Users\\anton\\OneDrive\\Proyectos GIthub\\SnakeWF\\SnakeWF\\Puntuacion.cs",
               "RelativeToolTip": "SnakeWF\\Puntuacion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T22:55:57.188Z"
+              "WhenOpened": "2025-07-02T22:55:57.188Z",
+              "EditorCaption": ""
             }
           ]
         }
