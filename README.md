@@ -39,6 +39,22 @@ Los controles están asignados al **teclado numérico**:
 3.- Restaura los paquetes NuGet si es necesario.
 4.- Ejecuta el proyecto (F5) y ¡a jugar!
 
+## 🗄️ Tabla de puntuaciones (opcional)
+
+El juego funciona sin base de datos. La pantalla de records usa Entity Framework
+contra un SQL Server, y esa parte necesita configuracion propia.
+
+En `SnakeWF/`, copia `App.config.example` como `App.config` y sustituye los
+valores `TU_SERVIDOR`, `TU_BASE_DE_DATOS`, `TU_USUARIO` y `TU_CONTRASENA` por
+los de tu servidor.
+
+`App.config` esta en el `.gitignore`: contiene credenciales y no debe subirse
+al repositorio.
+
+> El servidor online que usaba originalmente (somee.com) dejo de ofrecer plan
+> gratuito, asi que esa base de datos ya no existe. Para probar la tabla de
+> puntuaciones hay que apuntar a un SQL Server propio.
+
 ## 📦 Estructura del proyecto
 
 SnakeWF/
