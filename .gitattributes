@@ -1,0 +1,19 @@
+# En el repositorio siempre LF; en el disco, lo que cada sistema espere
+* text=auto
+
+*.sln       text eol=crlf
+*.csproj    text eol=crlf
+*.config    text eol=crlf
+*.resx      text eol=crlf
+*.settings  text eol=crlf
+*.cs        text diff=csharp
+*.md        text eol=lf
+.gitignore  text eol=lf
+
+*.ico       binary
+*.jpg       binary
+*.jpeg      binary
+*.png       binary
+*.exe       binary
+*.dll       binary
+*.pdb       binary
